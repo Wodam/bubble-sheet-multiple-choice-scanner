@@ -4,3 +4,5 @@
 *.iml
 *.ipr
 target/
+client/dist
+client/node_modules

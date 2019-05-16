@@ -44,7 +44,7 @@ public class Main {
 
 //            Scanner scanner = new Scanner(exchange.getRequestBody());
 //            System.out.println(scanner.useDelimiter("\\A").next());
-            
+
             exchange.getResponseHeaders().add("Access-Control-Allow-Origin", "*");
             exchange.sendResponseHeaders(200, respText.getBytes().length);
             OutputStream output = exchange.getResponseBody();
